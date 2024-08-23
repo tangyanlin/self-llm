@@ -46,7 +46,7 @@ pip install torch==2.1.2+cu121
 pip install tqdm==4.64.1
 pip install transformers==4.39.3
 # 下载flash-attn 请等待大约10分钟左右~
-MAX_JOBS=8 pip install flash-attn --no-build-isolation
+MAX_JOBS=8 pip install flash-attn --no-build-isolation  --no-cache-dir
 pip install vllm==0.4.0.post1
 ```
 
