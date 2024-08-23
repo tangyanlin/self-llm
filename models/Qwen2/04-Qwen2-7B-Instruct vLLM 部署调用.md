@@ -50,6 +50,11 @@ MAX_JOBS=8 pip install flash-attn --no-build-isolation  --no-cache-dir
 pip install vllm==0.4.0.post1
 ```
 
+```
+#出现问题的修复，如果缺失则按要求安装
+pip install 'numpy<2'  #对numpy的版本有要求
+```
+
 直接安装 `vLLM` 会安装 `CUDA 12.1` 版本。
 
 ```bash
